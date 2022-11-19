@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/*removed dot from infront of header to change it from a class selector to element selector */
+/*Removed dot from in front of header to change it from a class selector to element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*Changed the footer on html, changing this to am element selector */
+/*Changed the footer on html, changing this to an element selector */
 footer {
     padding: 30px;
     clear: both;
