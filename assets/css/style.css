@@ -14,8 +14,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
-header h1 {
+/*removing header from h1 */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -32,11 +32,13 @@ header nav {
     font-size: 20px;
 }
 /* Deleted Div. not needed NE more*/
-header ul {
+
+/*simplifying this section tp remove header */
+ul {
     list-style-type: none;
 }
 
-header ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,6 +52,17 @@ p {
     font-size: 16px;
 }
 
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -59,20 +72,30 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*New content secction for simplifying*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+.content-blocks {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.content-blocks img {
+    max-height: 200px;
+}
+.content-blocks h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.content-blocks h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefits {
@@ -90,6 +113,22 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+.benefit-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /*
 .benefit-brand {
     margin-bottom: 32px;
@@ -103,10 +142,7 @@ p {
 */
 
 /*Simplifying these repeats, not sure if content blocks will work but lets see */
-.content-blocks h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 /*
 .benefit-brand h3 {
     margin-bottom: 10px;
@@ -119,11 +155,7 @@ p {
 }
 */
 /*adding section here to simplify the stylesheet order */
-.benefit-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 100px;
-}
+
 /* Removing these because we only need one. not three things saying the same thing
 .benefit-brand img {
     display: block;
@@ -138,14 +170,8 @@ p {
 }
 */
 /*Simplifying these repeats, making a content class selector */
-.content-blocks {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+
+
 /* Cutting this out, no need for reapeats when you can have it all in one
 .online-reputation-management {
     margin-bottom: 20px;
@@ -166,9 +192,8 @@ p {
 }
 */
 /* Simplifying these repeat sections, making it look cleaner */
-.content-blocks img {
-    max-height: 200px;
-}
+
+
 /*
 .online-reputation-management img {
     max-height: 200px;
@@ -179,10 +204,8 @@ p {
 }
 */
 /*Adding another content block to simplifying */
-.content-blocks h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
+
 /*
 .online-reputation-management h2 {
     margin-bottom: 20px;
@@ -195,15 +218,6 @@ p {
 }
 /*
 /*Changed the footer on html, changing this to am element selector */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
 
-footer h2 {
-    font-size: 20px;
-}
 /*no divs visible on page. ready to submit but will ask tutor about things that can be done to polish up for resub?*/
 /*ask about flexbox*/
