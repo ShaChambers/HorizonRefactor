@@ -115,13 +115,13 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+/*adding section here to simplify the stylesheet order */
+.benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Removing these because we only need one. not three things saying the same thing
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -133,8 +133,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+*/
+/*Simplifying these repeats, making a content class selector */
+.content-blocks {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Cutting this out, no need for reapeats when you can have it all in one
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
